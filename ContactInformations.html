@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact informations</title>
+</head>
+
+<body>
+
+  <h1>My Contact Details</h1>
+
+  <ol type="I">
+    <li><a href="https://mail.google.com/mail/u/0/#drafts?compose=CllgCJlKFwvVJcKnmKMNTgpxlZTLmzgsTjLgVhGDtSCbbJPzXGZhNTgtRQlKddchlFBWWVgngLq">E-Mail: semihataman16@gmail.com</a></li>
+    <li><a href="https://www.instagram.com/semihataman16/">Instagram: semihataman16</a></li>
+    <li>Phone Number: 0543 346 36 33</li>
+    <li>Address: Antalya/Turkey</li>
+  </ol>
+  <hr>
+  <table>
+    <form class="" action="mailto:semihataman16@gmail.com" method="post" enctype="text/plain">
+      <!--Submit butonuna basıldığında semihataman16@gnail.com hesabına mail atma sayfası açılır.
+        enctype encoded type, karakterleri text formatına çevirir.  -->
+      <tr>
+        <td><label for="">Your Name: </label></td>
+        <td><input type="text" name="Name" value="">
+          <!-- value, kullanıcının textbox içine girdiği değerdir.
+             name kısmı mesajda ekrana şu şekilde bastılır :
+             name = value  diyelim ki kullanıcı İsim kutusuna Semih yazdı.
+             Mailin içeriğine yazılacak ifade, Name=Semih -->
+        </td>
+      </tr>
+      <tr>
+        <td><label for="">Your E-mail: </label></td>
+        <td><input type="email" name="E-mail" value=""></td>
+      </tr>
+      <tr>
+        <td><label for="">Your Message: </label></td>
+      </tr>
+      <tr>
+        <td colspan="2"> <textarea name="Message" rows="10" cols="30"></textarea>
+          <!-- Text Area, metin alanı bir input type değildir !!!!
+             Rows değeri text area nın length değeridir.
+             Cols değeri text area nın width değeridir. -->
+        </td>
+      </tr>
+      <tr>
+        <td><input type="submit" name="" value="Gonder"></td>
+      </tr>
+    </form>
+  </table>
+
+</body>
+
+</html>
